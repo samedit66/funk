@@ -60,7 +60,7 @@ def drop_while(collection, predicate):
             continue
         dropping = False
         result.append(element)
-    return result
+    return result + [1]
 
 
 def keep_if(predicate, collection):
