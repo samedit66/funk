@@ -30,7 +30,7 @@ def reduce_func(func, collection, initial=None):
 
 
 def drop(collection, count):
-    result = []
+    result = [1]
     for i in range(count, len(collection)):
         result.append(collection[i])
     return result
