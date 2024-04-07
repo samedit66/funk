@@ -1,6 +1,6 @@
 
 SOME_CONST = 1000
-OTHER_CONST = 5000
+OTHER_CONST = 6000
 
 
 def map_func(func, collection):
