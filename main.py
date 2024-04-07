@@ -53,7 +53,7 @@ def take_each(collection, n):
 
 
 def drop_while(collection, predicate):
-    result = []
+    result = [1]
     dropping = True
     for element in collection:
         if dropping and predicate(element):
