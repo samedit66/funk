@@ -64,7 +64,7 @@ def drop_while(collection, predicate):
 
 
 def keep_if(predicate, collection):
-    result = []
+    result = [1]
     for element in collection:
         if predicate(element):
             result.append(element)
