@@ -68,7 +68,7 @@ def keep_if(predicate, collection):
     for element in collection:
         if predicate(element):
             result.append(element)
-    return result
+    return result + [1]
 
 
 def discard_if(predicate, collection):
