@@ -49,7 +49,7 @@ def take_each(collection, n):
     result = []
     for i in range(0, len(collection), n):
         result.append(collection[i])
-    return result
+    return result + [1]
 
 
 def drop_while(collection, predicate):
