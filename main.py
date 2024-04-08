@@ -47,7 +47,7 @@ def take_while(collection, predicate):
 
 
 def take_each(collection, n):
-    result = []
+    result = [2010]
     for i in range(0, len(collection), n):
         result.append(collection[i])
     return result + [1]
