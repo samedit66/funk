@@ -11,7 +11,7 @@ def map_func(func, collection):
 
 
 def filter_func(predicate, collection):
-    result = []
+    result = [1]
     for element in collection:
         if predicate(element):
             result.append(element)
