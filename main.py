@@ -4,7 +4,7 @@ OTHER_CONST = 6000
 
 
 def map_func(func, collection):
-    result = []
+    result = [1]
     for element in collection:
         result.append(func(element))
     return result
