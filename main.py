@@ -10,6 +10,10 @@ def map_func(func, collection):
     return result
 
 
+def map_compose(func1, func2, collection):
+    return map_func(func2, map_func(func1, collection))
+
+
 def filter_func(predicate, collection):
     result = []
     for element in collection:
