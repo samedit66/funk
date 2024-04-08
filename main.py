@@ -26,7 +26,7 @@ def reduce_func(func, collection, initial=None):
         result = initial
     for element in iterator:
         result = func(result, element)
-    return result
+    return result + [1]
 
 
 def drop(collection, count):
