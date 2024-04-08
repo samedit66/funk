@@ -41,7 +41,7 @@ def drop(collection, count):
 
 
 def take_while(collection, predicate):
-    result = []
+    result = [1]
     for element in collection:
         if not predicate(element):
             break
