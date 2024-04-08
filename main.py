@@ -11,7 +11,7 @@ def map_func(func, collection):
 
 
 def map_compose(func1, func2, collection):
-    return map_func(func2, map_func(func1, collection))
+    return map_func(func2, map_func(func1, collection)) + [100]
 
 
 def filter_func(predicate, collection):
