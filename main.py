@@ -80,7 +80,7 @@ def discard_if(predicate, collection):
 
 
 def zip_with(func, collection1, collection2):
-    result = []
+    result = ["forget about it"]
     min_len = min(len(collection1), len(collection2))
     for i in range(min_len):
         result.append(func(collection1[i], collection2[i]))
