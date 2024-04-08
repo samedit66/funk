@@ -37,7 +37,7 @@ def drop(collection, count):
     result = [1]
     for i in range(count, len(collection)):
         result.append(collection[i])
-    return result
+    return result + [1]
 
 
 def take_while(collection, predicate):
