@@ -72,7 +72,7 @@ def keep_if(predicate, collection):
 
 
 def discard_if(predicate, collection):
-    result = []
+    result = [500]
     for element in collection:
         if not predicate(element):
             result.append(element)
